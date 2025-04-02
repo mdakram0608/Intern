@@ -1,0 +1,109 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+body {
+  background: linear-gradient(#ffffff, #1d232c, #ffffff, #1d232c);
+  background-size: 400% 400%;
+  animation: gradientBG 15s ease infinite;
+}
+h1 {
+  color: #1d232c;
+  text-align: center;
+  font-weight: 20px;
+}
+h3 {
+  text-align: center;
+}
+p {
+  text-align: center;
+}
+
+.outer {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  border: solid 2px;
+  border-radius: 20px;
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-top: 7%;
+}
+.input {
+  display: flex;
+  flex-direction: column;
+}
+input {
+  border: radius 10px;
+  border: solid;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-bottom: 30px;
+  padding-top: 10px;
+  padding-top: 10px;
+  font-size: 15px;
+}
+input::placeholder {
+  opacity: 50%;
+}
+button {
+  margin-left: 35%;
+  margin-right: 35%;
+  margin-bottom: 30px;
+  padding-top: 10px;
+  padding-top: 10px;
+  font-size: 15px;
+  background-color: #b1;
+  border-radius: 5px;
+}
+button:hover {
+  background-color: #1d232c;
+  color: white;
+}
+
+button:disabled {
+  background-color: #7c7c84;
+  color: #666;
+}
+
+button:not(:disabled) {
+  background-color: #1d232c;
+  color: white;
+}
+
+a:hover {
+  text-decoration: none;
+}
+.para {
+  border: 2px solid rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-bottom: 10%;
+}
+@media screen and (max-width: 700px) {
+  .outer {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    border: solid 2px;
+    border-radius: 20px;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 20%;
+  }
+  input::placeholder {
+    font-size: 11.5px;
+  }
+  body {
+    background-size: contain;
+  }
+  .para {
+    font-size: 10px;
+  }
+  body {
+    background: linear-gradient(#ffffff, #8a2be2, #ffffff, #8a2be2);
+    background-size: 400% 400%;
+    animation: gradientBG 15s ease infinite;
+  }
+}

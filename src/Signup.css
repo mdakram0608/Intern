@@ -1,0 +1,39 @@
+.sign {
+  border: solid;
+  margin-top: 5%;
+  margin-bottom:5%;
+  margin-left: 25%;
+  margin-right: 25%;
+  border-radius: 20px;
+}
+h2 {
+  color: #1d232c;
+  text-align: center;
+}
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.inputs {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+button{
+    margin-bottom:0px;
+}
+.lower{
+
+}
+@media screen and (max-width: 700px) {
+  .inputs {
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+  .sign {
+    border: solid;
+    margin-top: 8%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
